@@ -1,4 +1,6 @@
 package com.sundong.test.strategy;
 
-public class FlyingStrategy {
+public interface FlyingStrategy
+{
+    void performFly();
 }
